@@ -1,0 +1,4 @@
+﻿Unused IAM user credentials should be removed,,,,,,
+[IAM.8] This control checks whether your IAM users have passwords or active access keys that were not used within the previous 90 days. Remediation instructions ,,,,,,
+Compliance Status,Severity,Workflow,Account,Resource,Updated,Reason
+FAILED,MEDIUM,SUPPRESSED,6.27531E+11,arn:aws-us-gov:iam::859148994221:user/Administrator,2023-04-11T12:19:23.711Z,This is the backup admin which should never be used and therefor will always hit on this check
